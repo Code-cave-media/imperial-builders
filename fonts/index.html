@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imperial Builders</title>
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="icon" type="image/x-icon" href="img/82655175_459632258257546_2806389746408882176_nnn.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+       
+       
+       <link rel="stylesheet" href="css/responsive.css">
+
+       <!-- slide -->
+     
+        
+    </head>
+    <body>
+
+       
+       
+        <div id="myButton"></div>
+           <img src="message/whatsapp.svg" />
+        <style>
+
+            #mybutton {
+                width: 10px;
+                height: 10px;
+            }
+            #mybutton img {
+                width: 100%;
+                height: 100%;
+            }
+
+        </style>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#myButton').floatingWhatsApp({
+                    phone: '5491133359850',
+                    popupMessage: 'Hello, how can we help you?',
+                    message: "I'd like to order a pizza",
+                    showPopup: true,
+                    showOnIE: false,
+                    headerTitle: 'Welcome!',
+                    headerColor: 'crimson',
+                    backgroundColor: 'crimson',
+                    buttonImage: '<img src="message/whatsapp.svg" />'
+                });
+            });
+        </script>
+         <script type="message/text/javascript" src="jquery-3.3.1.min.js"></script>
+         <link rel="stylesheet" href="message/floating-wpp.css">
+         <script type="text/javascript" src="message/floating-wpp.js"></script>
+
+
+
+        <header class="header" id="top">
+            <div class="container">
+               <div class="header-main">
+                  <div class="logo">
+                     <a href="#"><img src="img/82655175_459632258257546_2806389746408882176_n.jpg" alt=""></a>
+                  </div>
+                  <div class="open-nav-menu">
+                     <span></span>
+                  </div>
+                  <div class="menu-overlay">
+                  </div>
+                  <!-- navigation menu start -->
+                  <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                       <img src="img/close.png" alt="close">
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="" class="home">Home</a>
+                         </li>
+                      <li class="menu-item">
+                         <a href="#service">What we do?</a>
+                      </li>
+                       <li class="menu-item">
+                          <a href="work.html">Works</a>
+                       </li>
+                       
+                       
+                       <li class="menu-item">
+                          <a href="#foot">About</a>
+                       </li>
+                       <li class="menu-item" >
+                          <a href="#foot" id="click" >Contact</a>
+                       </li>
+                    </ul>
+                  </nav>
+                  <!-- navigation menu end -->
+               </div>
+            </div>
+         </header>
+         <!-- header end -->
+       
+        
+       <script src="js/header.js"></script>
+
+
+         
+    <section class="wrapperp" >
+        <ul>
+        
+            <li class="content" id="tra" >
+                <h1 >IMPERIAL BUILDERS</h1>
+                <p class="typing-paragraph" id="typedText"></p>
+            </li>
+
+
+            <style>
+               
+        
+                .typing-paragraph {
+                
+                    overflow: hidden; /* Hide any overflow */
+                }
+            </style>
+
+<script>
+    function typeEffect() {
+        var text = "We are started as small firm in valakkai, Kannur ..now in 2023 we have 100 + staff and we have 2 branches in Calicut and Kannur...we made our 1000 above happy customers.. We are building contractors..with us you can get residential and commercial building..";
+        var speed = 20; // Adjust the speed as needed
+        var typedText = document.getElementById("typedText");
+        var textLength = text.length;
+        var counter = 0;
+
+        function type() {
+            typedText.textContent += text[counter];
+            counter++;
+
+            if (counter < textLength) {
+                setTimeout(type, speed);
+            }
+        }
+
+        type();
+    }
+
+    window.addEventListener('load', function() {
+        // Call the typing effect function after the page is fully loaded
+        typeEffect();
+    });
+</script>
+
+
+
+
+
+
+            <script>
+                window.addEventListener("load", function() {
+                  const listItem = document.getElementById("tra");
+                  listItem.classList.add("slide-in");
+                });
+              </script>
+                        <style>
+                            section.wrapperp ul {
+                                list-style: none;
+                                padding: 0;
+                                }
+
+                                section.wrapperp li {
+                                opacity: 0;
+                                }
+
+                                @keyframes slideInAnimation {
+                                0% {
+                                    opacity: 0;
+                                    transform: translateX(-100%);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    transform: translateX(0);
+                                }
+                                }
+
+                                .slide-in {
+                                animation: slideInAnimation 1s forwards; /* Adjust the duration of the slide-in effect */
+                                }
+
+              </style>
+
+
+            <li class="wimg">
+                <div >
+                    <img src="img/home.jpg" alt="">
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+<style>
+    .list {
+  list-style: none;
+  padding: 0;
+}
+
+.wimg {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideInFromRight 1s forwards; /* Adjust the duration of the slide-in effect */
+}
+
+@keyframes slideInFromRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+</style>
+
+
+
+  
+        <div class="slide-container swiper" id="service">
+            <h1 class="aru">Our Services</h1>
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper" >
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="image/construction.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">construction</h2>
+                            <p class="description">Imperial Builders excels in top-tier construction, serving both residential and commercial projects.</p>
+
+                            <button class="button">Know More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/interior.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Interior Designing</h2>
+                            <p class="description">Imperial Builders excels in interior design, crafting stunning spaces that redefine aesthetics and functionality.</p>
+
+                            <button class="button">Know More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/construction.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Renovation</h2>
+                            <p class="description">Imperial Builders specializes in top-quality renovations, transforming spaces with precision and expertise.</p>
+
+                            <button class="button">Know More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/32518.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">3d Designing</h2>
+                            <p class="description">Imperial Builders offers impressive 3D modeling services, enhancing project visualization and planning for clients.</p>
+
+                            <button class="button">Know More</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+
+        <section class="testh">
+            <h1>Happy Customer</h1>
+        </section>
+        <section class="containerp">
+            
+            <div class="testimonial mySwiper">
+              <div class="testi-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                  <img src="images/img1.jpg" alt="" class="image" />
+                  <p>
+                    "I highly recommend Imperial Builders for their exceptional craftsmanship. Our project was completed on time, and the final result was nothing short of spectacular."
+                  </p>
+      
+                  <i class="bx bxs-quote-alt-left quote-icon"></i>
+      
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                </div>
+                <div class="slide swiper-slide">
+                  <img src="images/img1.jpg" alt="" class="image" />
+                  <p>
+                    "Working with Imperial Builders was a pleasure from start to finish. Their professionalism and transparency made the entire construction process smooth and stress-free."
+                  </p>
+      
+                  <i class="bx bxs-quote-alt-left quote-icon"></i>
+      
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                </div>
+                <div class="slide swiper-slide">
+                  <img src="images/img1.jpg" alt="" class="image" />
+                  <p>
+                    "Imperial Builders exceeded our expectations! Their attention to detail and commitment to quality resulted in a stunning home. We couldn't be happier with the outcome."
+                  </p>
+      
+                  <i class="bx bxs-quote-alt-left quote-icon"></i>
+      
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next nav-btn"></div>
+              <div class="swiper-button-prev nav-btn"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+      
+          <!-- Swiper JS -->
+          <script src="js/swiper-bundle.min.js"></script>
+      
+          <!-- JavaScript -->
+          <script src="js/script.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/slider-script.js"></script>
+
+
+	<section id="main">		
+		<section class="content-item bg">
+			<section class="wrapper">
+				
+				<div >
+				<img src="images/image.png" alt="" class="nodeimg">
+				</div>
+
+	            <div class="content node" >
+	            	<h3 >Why <br> Imperial Builders</h3>
+	            	<p>Imperial Builders is the ideal choice for your construction needs because of their unwavering commitment to excellence. With a proven track record of delivering high-quality projects on time and within budget, Imperial Builders has earned a reputation as a trusted and reliable construction company. Their team of experienced professionals combines skill, innovation, and dedication to ensure that every project they undertake is executed with precision and care.</p>
+	            </div>
+	        </section>   
+		</section>
+		
+
+        <style>
+           
+            .nodeimg{
+                opacity: 0;
+                transform: translatey(100px); /* Starting position - slide from left by 50px */
+                transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+              
+            
+            }
+        </style>
+
+
+
+
+
+        <style>
+           
+            .node{
+                opacity: 0;
+                transform: translatey(100px); /* Starting position - slide from left by 50px */
+                transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+              
+            
+            }
+        </style>
+
+<script>
+    function revealFromSide() {
+        var nodes = document.querySelectorAll('.node');
+        nodes.forEach(node => {
+            var revealPoint = node.offsetTop + node.offsetHeight / 2;
+            if (window.scrollY + window.innerHeight >= revealPoint) {
+                node.style.opacity = 1;
+                node.style.transform = 'translateX(0)';
+            }
+        });
+    }
+
+    window.addEventListener('scroll', revealFromSide);
+    window.addEventListener('load', revealFromSide);
+</script>
+
+<script>
+    function revealFromSide() {
+        var nodes = document.querySelectorAll('.nodeimg');
+
+        for (var i = 0; i < nodes.length; i++) {
+            var node = nodes[i];
+            var revealPoint = node.offsetTop + node.offsetHeight / 2; // Reveal when the element is at the middle of the viewport
+
+            // Check if the scroll position reaches the reveal point
+            if (window.scrollY + window.innerHeight >= revealPoint) {
+                node.style.opacity = 1;
+                node.style.transform = 'translateX(0)';
+            }
+        }
+    }
+
+    window.addEventListener('scroll', revealFromSide);
+    // Call the function once on page load in case the elements are already visible
+    window.addEventListener('load', revealFromSide);
+</script>
+
+
+
+		<section id="main">		
+		<section class="content-item">
+			<section class="wrapper">
+				
+	            <div class="content node-tp"  >
+	            	<h3 class="cent">Why <br> Quality Assurance</h3>
+	            	<p class="ce">Prioritizing quality assurance is vital for our construction company's commitment to excellence. It enhances our reputation and ensures project success. Quality assurance guarantees durable structures that meet industry standards, satisfying clients' expectations. Through rigorous quality control, we identify and address issues early, minimizing rework and delays. Our dedication to quality sets us apart in the market, attracting clients and fostering repeat business. Quality assurance is more than a checkbox; it's our pledge to reliability, safety, and customer satisfaction, propelling our company's growth.</p>
+	            </div>
+	            <div >
+				<img src="images/quality.png" alt="" class="node-tpi">
+				</div>
+	        </section>   
+		</section>
+
+ 
+        <style>
+           
+           .node-tp, .node-tpi{
+                opacity: 0;
+                transform: translatey(100px); /* Starting position - slide from left by 50px */
+                transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+              
+            
+            }
+        </style>
+
+<script>
+    function revealFromSide() {
+        var nodes = document.querySelectorAll('.node-tp, .node-tpi');
+        nodes.forEach(node => {
+            var revealPoint = node.offsetTop + node.offsetHeight / 2;
+            if (window.scrollY + window.innerHeight >= revealPoint) {
+                node.style.opacity = 1;
+                node.style.transform = 'translateX(0)';
+            }
+        });
+    }
+
+    window.addEventListener('scroll', revealFromSide);
+    window.addEventListener('load', revealFromSide);
+</script>
+        
+
+
+
+
+
+		<section id="main">		
+		<section class="content-item bg">
+			<section class="wrapper">
+				<div>
+					<img src="images/location.png" alt="" class="node-fpi">
+				</div>
+	            <div class="content node-fp">
+	            	<h3>Where <br> Do Your Company</h3>
+	            	<p >Imperial Builders is a renowned construction company in Kannur and Calicut, known for its excellence. With a history of delivering top-quality projects, we've built a strong reputation. Our expert team prioritizes innovation and quality, exceeding industry standards. We're committed to stringent quality assurance, ensuring the durability of our constructions. In both Kannur and Calicut, Imperial Builders is the trusted choice, attracting diverse clients and maintaining lasting relationships through our commitment to quality and satisfaction.</p>
+	            </div>
+	        </section>   
+		</section>
+
+        
+
+
+
+        <style>
+           
+            .node-fp, .node-fpi{
+                 opacity: 0;
+                 transform: translatey(100px); /* Starting position - slide from left by 50px */
+                 transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+               
+             
+             }
+         </style>
+ 
+ <script>
+     function revealFromSide() {
+         var nodes = document.querySelectorAll('.node-fp, .node-fpi');
+         nodes.forEach(node => {
+             var revealPoint = node.offsetTop + node.offsetHeight / 2;
+             if (window.scrollY + window.innerHeight >= revealPoint) {
+                 node.style.opacity = 1;
+                 node.style.transform = 'translateX(0)';
+             }
+         });
+     }
+ 
+     window.addEventListener('scroll', revealFromSide);
+     window.addEventListener('load', revealFromSide);
+ </script>
+         
+
+
+
+
+
+<section class="connect trainp" id="connect" >
+    <h1 class="trh">Lets Connect</h1>
+
+
+    <form action="">
+        <div class="textInputWrapper">
+            
+            <input placeholder="Enter Your Number" type="text" class="textInput " minlength="10" maxlength="10" id="numberInput" oninput="validateInput(event)">
+        </div>
+        <button class="button">
+            Submit
+          </button>
+
+    </form>
+    <script>
+       function validateInput(event) {
+    var input = event.target;
+    var value = input.value;
+
+    // Replace any non-numeric characters with an empty string
+    var sanitizedValue = value.replace(/[^0-9]/g, '');
+
+    // Update the input value with the sanitized value
+    input.value = sanitizedValue;
+}
+    </script>
+
+</section>
+
+   
+<style>
+           
+    .trah, .trainp{
+         opacity: 0;
+         transform: translateY(100px); /* Starting position - slide from left by 50px */
+         transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+       
+     
+     }
+ </style>
+
+<script>
+function revealFromSide() {
+ var nodes = document.querySelectorAll('.trah, .trainp');
+ nodes.forEach(node => {
+     var revealPoint = node.offsetTop + node.offsetHeight / 2;
+     if (window.scrollY + window.innerHeight >= revealPoint) {
+         node.style.opacity = 1;
+         node.style.transform = 'translateX(0)';
+     }
+ });
+}
+
+window.addEventListener('scroll', revealFromSide);
+window.addEventListener('load', revealFromSide);
+</script>
+
+
+
+
+
+
+<script>
+    // Function to check if an element is in the viewport
+function isElementInViewport(element) {
+  var rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Function to handle scroll event
+function onScroll() {
+  var aruDiv = document.querySelector('.aru');
+
+  if (isElementInViewport(aruDiv)) {
+    aruDiv.classList.add('reveal');
+    // Remove the scroll event listener once the div is revealed to avoid unnecessary processing
+    window.removeEventListener('scroll', onScroll);
+  }
+}
+
+// Attach the scroll event listener to the window
+window.addEventListener('scroll', onScroll);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="foot">
+    <ul class="main">
+        
+        
+        <li class="first" id="sub">
+  
+  
+  
+  
+                <div class="footlogo" >
+                    <a href="index.html"><img src="img/82655175_459632258257546_2806389746408882176_nn.jpg" alt=""></a>
+                </div>
+  
+            <h5>Imperail Builders</h5>
+                <ul>
+                    <li>
+                    <a href="#top">Home</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="#service">Services</a>
+                    </li>
+                    <li>|</li>
+              
+       
+                    <li>
+                        <a href="work.html">Works</a>
+                    </li>
+                 </ul>
+  
+  
+  
+  
+  
+  
+        </li>
+        
+        
+        <li class="second" id="sub">
+  
+  
+  
+  
+                <h3>Contact us</h3>
+                <ul class="t">
+                    <li>
+                   
+                        <div class="contact"><img src="images/phone.png" alt="" id="s"></div>
+                        <a href="tel:+9196450 33044"><h6>Phone</h6></a> 
+                    </li>
+  
+                </ul>
+                <ul class="s">
+                    <li>
+                        <div class="contact"><img src="images/facebook.png"   alt=""></div>
+                        <a href="https://www.facebook.com/imperialbuildersknr/" target="blank"><h6>whatsapp</h6></a> 
+                    </li>
+                </ul>
+       
+  
+    
+  
+              
+                <ul class="f">
+                    <li>
+                        <div class="contact"><img src="images/insta.png" alt=""></div>
+                       <a href="https://www.instagram.com/imperial_builders/"><h6>Instagram</h6></a> 
+                    </li>
+                </ul>
+               
+  
+               
+  
+    
+            
+  
+  
+        </li>
+        <li class="third" id="sub">
+                    <h2>About our Company</h2>
+  
+  
+                    <p>
+                        Starting as a small firm in Valakkai, Kannur, we've grown into a thriving enterprise with 100+ staff members, serving clients through branches in Calicut and Kannur. With over 1,000 satisfied customers, we specialize in residential and commercial construction. Our unwavering commitment to quality sets us apart, making us the go-to choice for all your building needs. Join us as we build a brighter future together</p>
+  
+            
+   
+        </li>
+    
+  </footer>
+  <div class="foot">
+    <p>© All rights reserved | Designed and developed by Code Cave Media</p>
+  </div>
+  
+  
+</body>
+    
+</html>
